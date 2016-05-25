@@ -1,18 +1,19 @@
 {
-  "name": "parse-server-example",
-  "version": "1.4.0",
-  "description": "An example Parse API server using the parse-server module",
+  "name": "RedBrickAPI",
+  "version": "1.0.0",
+  "description": "API for RedbrickBrewery Application",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ParsePlatform/parse-server-example"
+    "url": "https://github.com/cajun-code/red-brick-api"
   },
   "license": "MIT",
   "dependencies": {
     "express": "~4.11.x",
     "kerberos": "~0.0.x",
     "parse": "~1.8.0",
-    "parse-server": "~2.2.2"
+    "parse-server": "~2.2.2",
+    "parse-dashboard": "~1.0.12"
   },
   "scripts": {
     "start": "node index.js"
